@@ -1,0 +1,20 @@
+{
+  "name": "node_backend_react_blogs",
+  "version": "1.0.0",
+  "description": "This is Backend file of React blogs Website",
+  "main": "index.js",
+  "author": "Balram Kumar",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
