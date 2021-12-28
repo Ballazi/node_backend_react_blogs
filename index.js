@@ -1,4 +1,4 @@
 const app = require("./express");
 
-
-app.listen(8000,() => {console.log("Server is Started on port 8000")});
+let port = process.env.PORT || 8000;
+app.listen(port,() => {console.log("Server is Started on port ",port)});
