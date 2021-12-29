@@ -18,7 +18,6 @@ router.get("/latestarticles",(req,res) => {
     const arr = ArrayofBlogs.slice(3,numb);
     const arr1 = ArrayofBlogs.slice(6,9);
     const arr2 = ArrayofBlogs.slice(0,3);
-    console.log(arr2);
     res.status(200).json({success:true,message:"successful...",arr,arr1,arr2});
 })
 
