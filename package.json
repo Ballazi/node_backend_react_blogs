@@ -6,7 +6,7 @@
   "author": "Balram Kumar",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon"
+    "heroku-postbuild": "cd blogreact && npm install && npm run build"
   },
   "license": "MIT",
   "dependencies": {
