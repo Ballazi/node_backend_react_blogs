@@ -5,8 +5,7 @@
   "main": "index.js",
   "author": "Balram Kumar",
   "scripts": {
-    "start": "node index.js",
-    "heroku-postbuild": "cd blogreact && npm install && npm run build"
+    "start": "node index.js"
   },
   "license": "MIT",
   "dependencies": {

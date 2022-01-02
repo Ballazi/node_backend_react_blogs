@@ -10,11 +10,6 @@ app.use(cors());
 app.use(express.json());
 
 
-app.use(express.static(path.join(__dirname, "/blogreact/build")));
-
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '/blogreact/build', 'index.html'));
-});
 
 
 app.use("/api/v1/common",commonrouter);
