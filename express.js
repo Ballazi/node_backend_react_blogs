@@ -5,7 +5,6 @@ const homerouter = require("./router/homeRouter");
 const writerrouter = require("./router/writerRouter");
 const singlepostRouter = require("./router/singlepostRouter");
 const cors = require("cors");
-const path = require("path");
 app.use(cors());
 app.use(express.json());
 
